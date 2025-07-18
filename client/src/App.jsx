@@ -5,11 +5,9 @@ import HomePage from './pages/HomePage'
 
 const App = () => {
   return (
-    <div className='bg-slate-800 h-screen'>
-      <Routes>
-        <Route path='/' element={<HomePage />}></Route>
-      </Routes>
-    </div>
+    <Routes>
+      <Route path='/' element={<HomePage />}></Route>
+    </Routes>
   )
 }
 
