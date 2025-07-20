@@ -11,7 +11,6 @@ const Navbar = () => {
       <div className='space-x-6 text-lg'>
         {/* <a href="#about" className="hover:text-black hidden bg-pink-300 p-1 px-2 md:inline border border-solid border-pink-800 hover:border-black rounded-xl" >About</a>
         <a href="#contact" className="hover:text-black hidden bg-pink-300 p-1 px-2 md:inline  border border-solid border-pink-800 hover:border-black rounded-xl" >Contact</a> */}
-        <Link to="/shitboard" className="hover:text-black bg-pink-300 p-1 px-2 border border-solid border-pink-800 hover:border-black rounded-xl" >Shitboard</Link>
         <Link to="https://github.com/ishivxnshh/ShitBolo-Project" target="_blank" rel="noreferrer" className="hover:text-black bg-pink-300 p-1 px-2 border border-solid border-pink-800 hover:border-black rounded-xl" >Github</Link>
       </div>
 
